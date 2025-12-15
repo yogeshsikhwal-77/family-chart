@@ -110,7 +110,7 @@ const memberData = {
         bio: "NA",
         dob: "NA",
         location: "Marwar Balia, India",
-        occupation: "Engineer"
+        occupation: "Businessman"
     },
     "child4": {
         name: "Pinki Sharma",
@@ -201,4 +201,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 });
+
 
