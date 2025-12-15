@@ -50,7 +50,7 @@ const memberData = {
         occupation: "Student"
     },
     "child2": {
-        name: "Chi",
+        name: "Ritik Sikhwal",
         role: "Grandson",
         photo: "images/child2.jpg",
         bio: "Study in 6th class",
@@ -199,4 +199,5 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('p-bio').textContent = "We couldn't find details for this family member.";
         }
     }
+
 });
