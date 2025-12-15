@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Profile</title>
+    <link rel="stylesheet" href="family.css">
+</head>
+<body>
+
+    <div class="profile-container">
+        <a href="index.html" class="back-btn">← Back to Family Tree</a>
+
+        <div class="profile-header">
+            <img id="p-pic" src="images/default.jpg" alt="Profile" class="profile-pic-large">
+            
+            <div>
+                <h1 id="p-name" style="margin: 0;">Loading...</h1>
+                <h3 id="p-role" style="color: #666; font-weight: normal; margin-top: 5px;">...</h3>
+            </div>
+        </div>
+
+        <div class="profile-bio">
+            <h3>Biography</h3>
+            <p id="p-bio">
+                </p>
+            
+            <h3>Details</h3>
+            <ul>
+                <li><strong>Birth Date:</strong> <span id="p-dob"></span></li>
+                <li><strong>Location:</strong> <span id="p-loc"></span></li>
+                <li><strong>Occupation:</strong> <span id="p-occ"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="family.js"></script>
+</body>
+</html>
