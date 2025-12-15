@@ -133,7 +133,7 @@ const memberData = {
     "child6": {
         name: "Anil Sharma",
         role: "Grandson",
-        photo: "images/child5.jpg",
+        photo: "images/child6.jpg",
         bio: "Done B.A and multiple computor skills currently working in Hospital ",
         dob: "NA",
         location: "Marwar Balia, India",
@@ -142,7 +142,7 @@ const memberData = {
     "child7": {
         name: "Nitu Sharma",
         role: "Grandson",
-        photo: "images/child5.jpg",
+        photo: "images/child7.jpg",
         bio: "currently pursuing B.A ",
         dob: "NA",
         location: "Marwar Balia, India",
@@ -201,3 +201,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 });
+
